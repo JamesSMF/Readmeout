@@ -12,5 +12,5 @@ with open("to_be_read.txt", "rt") as f:
 os.system('open to_be_read.txt -a textedit')
 
 # Read it out
-time.sleep(0.5)
+time.sleep(1)
 os.system('say -f out_text.txt')
